@@ -29,7 +29,7 @@ const SingleMap = ({ lat, lng }) => {
                 <div className="mt-1"></div>
                 <div>
 
-                    <WrapperdMap lat={lat} lng={lng} className="Googlemap" googleMapURL="https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=geometry,drawing,places"
+                    <WrapperdMap lat={lat} lng={lng} className="Googlemap" googleMapURL={`https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=geometry,drawing,places&key=${process.env.REACT_APP_GOOGLE_API}`}
                         loadingElement={<div style={{ height: `100%` }} />}
                         containerElement={<div style={{ height: `400px` }} />}
                         mapElement={<div style={{ height: `200%` }} />} />
@@ -40,4 +40,3 @@ const SingleMap = ({ lat, lng }) => {
     )
 }
 export default SingleMap
-// &key=AIzaSyDT3tmOzEm-w_paBuf5aOhzZjLC_cONrOA
