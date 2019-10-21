@@ -9,10 +9,6 @@ import { Link } from 'react-router-dom';
 const Map = () => {
     const [selectedProperty, setSelectedProperty] = useState(null);
     const gMap = (properties) => {
-        console.log(properties.properties);
-        console.log(typeof (selectedProperty));
-        // console.log(locations);
-
         return (
             <>
 
@@ -75,7 +71,7 @@ const Map = () => {
                     if (loading) {
                         return <Loading />;
                     }
-                    console.log(properties)
+
                     return (
                         <div className="maps">
                             <div className="mt-1"></div>
