@@ -67,7 +67,7 @@ const Map = () => {
         <RoomConsumer>
             {
                 (value) => {
-                    const { loading, locations, properties } = value;
+                    const { loading, properties } = value;
                     if (loading) {
                         return <Loading />;
                     }

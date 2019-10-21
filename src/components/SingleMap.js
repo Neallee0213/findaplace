@@ -1,6 +1,6 @@
 import React from 'react'
 import { GoogleMap, withScriptjs, withGoogleMap, Marker } from "react-google-maps";
-import Title from "./Title";
+
 
 const gMap = ({ lat, lng }) => {
 

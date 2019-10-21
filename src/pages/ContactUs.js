@@ -1,7 +1,5 @@
 import React from 'react'
 import Hero from "../components/Hero";
-import Banner from "../components/Banner";
-import Rooms from './Properties';
 import "../App.css"
 
 const ContactUs = () => {
