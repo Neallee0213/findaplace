@@ -1,6 +1,12 @@
 .single-room{
     .single-info{
-        padding:100px;
+        // padding:100px;
+        .map-col{
+            display: inline-block;
+            overflow: hidden;
+            height: auto;
+            padding: 0;
+        }
     }
     .owl-theme{
         height: 70vh;

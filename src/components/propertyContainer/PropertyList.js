@@ -19,7 +19,7 @@ const PropertyList = ({ properties }) => {
         <section className="container-fluid">
             <div className="row list-row">
                 {properties.map(item => (
-                    <div className="col-4">
+                    <div className="col-12 col-md-4">
                         <div className="info">
                             <Property key={item.id} property={item} />
                             <div className="row type-row">

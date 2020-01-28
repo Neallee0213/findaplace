@@ -7,7 +7,7 @@ const BottomTitle = () => {
         <div className="container-fluid title-container">
             <div className="row title-row">
                 <div className="col title-col">
-                    <Title title="The Top Brokerage in Toronto" size="3rem" />
+                    <Title title="The Top Brokerage in Toronto" />
                     <p>Whether it’s selling out new developments or hitting record selling prices,
                         we have both the reach and experience to create a seamless real estate transaction.
                 Just like you wouldn’t go to a job interview naked, staging and photography is critical to setting record sale prices, and we do it better than anyone in the game.</p>

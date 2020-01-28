@@ -40,7 +40,7 @@ const PropertyFilter = ({ properties }) => {
         <div className="filter-container container">
             <Title title="search properties" />
             <div className="filter-form row justify-content-center">
-                <div className="form-group col-3 type">
+                <div className="form-group col-6 col-md-3 type">
                     <label htmlFor="type">property type</label>
                     <select
                         name="type"
@@ -53,7 +53,7 @@ const PropertyFilter = ({ properties }) => {
                     </select>
                 </div>
 
-                <div className="form-group col-3 cap">
+                <div className="form-group col-6 col-md-3 cap">
                     <label htmlFor="capacity">Guests</label>
                     <select
                         name="capacity"
@@ -67,7 +67,7 @@ const PropertyFilter = ({ properties }) => {
                 </div>
 
 
-                <div className="form-group col-3 price">
+                <div className="form-group col-6 col-md-3 price">
                     <label htmlFor="price">property price ${price}</label>
                     <input
                         type="range"
@@ -82,7 +82,7 @@ const PropertyFilter = ({ properties }) => {
                     />
                 </div>
 
-                <div className="form-group col-3 extra">
+                <div className="form-group col-6 col-md-3 extra">
                     <div className="single-extra">
                         <input
                             type="checkbox"

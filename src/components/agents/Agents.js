@@ -16,8 +16,8 @@ import './Agents.scss'
 const Agents = () => {
     return (
         <div className="container-fluid agent-container">
-            <div className="row">
-                <Title title="Our Agents" size="2rem" />
+            <div className="row title">
+                <Title title="Our Agents" />
             </div>
             <div className="row agent-row justify-content-around">
                 <div className="col-5 col-md-2 agent-col">

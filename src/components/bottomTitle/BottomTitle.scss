@@ -11,6 +11,9 @@
                 line-height: 2.5rem;
                 width: 60%;
                 margin: auto;
+                @media screen and (max-width: 576px){
+                    font-size: .8rem;
+                }
             }
             .btn-contact{
                 margin: 50px 0 ;
@@ -20,16 +23,28 @@
                 .link{
                     text-decoration: none;
                     p{
+                        transition: all .5s;
                         border: 1px solid gray ;
                         color:black;
                         border-radius: 20px;
     
                     }
                 }
-                
+                &:hover{
+                    p{
+                        background: black;
+                        color: white;
+                    }
+                }
+                @media screen and (max-width: 576px){
+                    width: 100%;
+                }   
                 
                 
             }
         }
+    }
+    @media screen and (max-width: 576px){
+     margin: 50px 0;
     }
 }

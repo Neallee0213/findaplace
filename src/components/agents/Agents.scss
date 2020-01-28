@@ -1,18 +1,21 @@
 .agent-container{
-    padding:100px;
+    .title{
+        padding: 0 80px;
+    }
     .agent-row{
         position: relative;
+        padding: 40px 0;
         .agent-col{            
             padding:0;
             box-shadow: 0 10px 10px rgba(0,0,0,0.2);
-            height: 530px;
+            height: 540px;
             margin: 15px;
             img{
-                // padding:30px;
+                
                 width: 100%;
-                // border-radius: 250px;
             }
             .info{
+                
                 text-align: center;
                 h3{
                     padding-top: 30px;
@@ -37,7 +40,7 @@
                         font-size: .8rem;
                     }
                     p{
-                        padding: 0;
+                        padding: 0 10px;
                         font-size: .5rem;
                     }
                 }

@@ -28,6 +28,7 @@ export default class SingleRoom extends Component {
                 height: "100%"
 
 
+
             }
         }
     }
@@ -47,10 +48,6 @@ export default class SingleRoom extends Component {
 
         const { name, description, capacity, size, price, extras, breakfast, rentable, images, geometry } = property;
         const [mainImg, ...defaultBcg] = images;
-        console.log(this.state.slug);
-        console.log(images);
-        console.log(defaultBcg);
-
 
 
 
@@ -93,7 +90,7 @@ export default class SingleRoom extends Component {
                     < div className="container-fulid single-info">
 
                         <div className="row justify-content-around">
-                            <div className="col-5">
+                            <div className="col-6 map-col">
                                 {/* <SingleMap lat={geometry.coordiantes[0]} lng={geometry.coordiantes[1]} /> */}
                                 <ReactMapGL
                                     mapboxApiAccessToken={TOKEN}
@@ -119,7 +116,7 @@ export default class SingleRoom extends Component {
                                 </ReactMapGL>
                             </div>
 
-                            <div className="col-5">
+                            <div className="col-12 col-lg-5">
                                 <div className="single-room-info">
                                     <article className="desc">
                                         <h3>details</h3>

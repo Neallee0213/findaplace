@@ -1,10 +1,11 @@
 .feedback{
-    height: 75vh;
-    padding: 0 100px;
+    overflow-x: hidden;
+    
     .title{
         padding: 0 100px;
     }
     .feedback-row{
+        
         margin: 50px 0;
         .info-col{
             display: flex;
@@ -31,7 +32,7 @@
     @media screen and (max-width: 576px){
      padding: 0;
      .title{
-        padding: 0 85px;
+        // padding: 0 85px;
          h4{
              font-size: .8rem;
          }
