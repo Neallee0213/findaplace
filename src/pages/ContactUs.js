@@ -1,13 +1,16 @@
 import React from 'react'
-import Hero from "../components/Hero";
-import "../App.css"
+import Hero from "../components/hero/Hero";
+import heroVideo from '../images/video.mp4'
+import "./ContactUs.scss"
 
 const ContactUs = () => {
     return (
         <>
-            <Hero>
+            <div className="contact-container">
 
-
+                <video id="bg-vid" className="cover" autoPlay mute loop>
+                    <source src={heroVideo} type="video/mp4" />
+                </video>
                 <div className="container">
 
                     <div className="contact-form">
@@ -38,7 +41,7 @@ const ContactUs = () => {
 
 
                 </div>
-            </Hero>
+            </div>
         </>
     )
 }

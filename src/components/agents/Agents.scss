@@ -1,0 +1,79 @@
+.agent-container{
+    padding:100px;
+    .agent-row{
+        position: relative;
+        .agent-col{            
+            padding:0;
+            box-shadow: 0 10px 10px rgba(0,0,0,0.2);
+            height: 530px;
+            margin: 15px;
+            img{
+                // padding:30px;
+                width: 100%;
+                // border-radius: 250px;
+            }
+            .info{
+                text-align: center;
+                h3{
+                    padding-top: 30px;
+                    font-size: 1.3rem;
+                    font-weight: 300;
+                }
+                h5{
+                    font-size: 1rem;
+                    font-weight: 200;
+                    color: darkgray;
+                }
+                p{
+                    padding:10px 20px;
+                    font-size: .9rem;
+                    font-weight: 300;
+                }
+                @media screen and (max-width: 576px){
+                    h3{
+                     font-size: .8rem;   
+                    }
+                    h5{
+                        font-size: .8rem;
+                    }
+                    p{
+                        padding: 0;
+                        font-size: .5rem;
+                    }
+                }
+                
+
+            }
+            .icons{
+                cursor: pointer;
+                text-align: center;
+                font-size: 1.8rem;
+                .twitter{
+                 color:#00acee;   
+                }
+                .facebook{
+                    color:#3b5998
+                }
+                .google{
+                    color:#EA4335;
+                }
+                .email{
+                    color:#C6C6C6;
+                }
+                .twitter, .facebook, .google, .email{
+                    transition: .3s all;
+                    &:hover{
+                     transform: translateY(-3px);
+                    }
+                }
+                @media screen and (max-width: 576px){
+                    font-size: 1rem;
+                }
+            }
+            @media screen and (max-width: 576px){
+                height: auto;
+                margin: 10px;
+            }
+        }
+    }
+}

@@ -1,0 +1,91 @@
+.marker{
+    .pins{
+        font-size: 1.5rem;
+    }
+}
+.mapboxgl-popup-content {
+    padding:0 !important;
+    margin: 0 !important;
+}
+.info-container{
+    width: 250px !important;
+    min-width: 200px !important;
+    
+    cursor: pointer;
+    position: relative;
+    .mapboxgl-popup-close-button{
+        display: none;
+    }
+    .popup-row{
+
+        img{
+            width:100%;
+        }
+    }
+    
+        
+    .popup-row-name{
+        padding:0 10px;
+        display: block;
+        h5{
+            margin: 10px 0;
+            // text-align: center;
+            font-size: .7rem;
+            font-weight: 400;
+        }
+        h4{
+            font-size: .9rem;
+            font-weight: 300;
+        }
+        p{
+            // text-align: center;
+            font-size: .8rem;
+            color:gray;
+            // font-weight: 300;
+        }
+    }
+
+    .popup-row-info{
+        padding:0 10px;
+        
+        .popup-col-info{
+
+            padding: 0;
+            p{
+                float: left;
+                font-size: .7rem;
+                padding-right: 15px;
+                font-weight: 300;
+                color: black;
+            }
+            .icons{
+                color: gray;
+                padding-right: 5px;
+                font-size: 1.1rem;
+            }
+        }
+        
+    }
+    .popup-row-priceLink{
+        padding:10px;
+        .price, .link{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 1px solid black;
+            border-radius: 250px;
+            button{
+                border: none;
+                color: black;
+            }
+            .link{
+                // background-color: blue !important;
+                p{
+                    margin: 0;
+                    color: black;
+                }
+            }
+
+        }
+    }
+}

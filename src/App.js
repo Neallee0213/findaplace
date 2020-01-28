@@ -1,13 +1,14 @@
 import React, { Component } from 'react'
 import "./App.css"
+// import './sass/main.scss'
 import { Route, Switch } from "react-router-dom"
 import Home from "./pages/Home"
 import Error from "./pages/Error"
 import SingleProperty from "./pages/SingleProperty"
 import Properties from "./pages/Properties"
 import ContactUs from "./pages/ContactUs"
-import NavBar from "./components/NavBar"
-import Footer from "./components/Footer"
+import NavBar from "./components/navbar/NavBar"
+import Footer from "./components/footer/Footer"
 
 
 export class App extends Component {

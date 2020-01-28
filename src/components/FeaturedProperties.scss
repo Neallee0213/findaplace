@@ -1,0 +1,11 @@
+.featured{
+    padding: 100px;
+    
+    @media screen and (max-width: 576px){
+        padding: 25px;
+        h4{
+            text-align: center;
+            font-size: .8rem;
+        }
+    }
+}

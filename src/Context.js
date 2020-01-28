@@ -9,8 +9,8 @@ export default class RoomProvider extends Component {
         properties: [],
         sortedProperties: [],
         featureProperties: [],
+        offerProperties: [],
         loading: true,
-        //
         type: "All",
         capacity: 1,
         price: 0,
@@ -27,12 +27,14 @@ export default class RoomProvider extends Component {
     componentDidMount() {
         let properties = this.formatData(items);
         let featureProperties = properties.filter(property => property.featured === true);
+        let offerProperties = properties.filter(property => property.offer === true);
         let locations = properties.map(property => property.geometry.coordiantes);
         let maxPrice = Math.max(...properties.map(item => item.price));
         let maxSize = Math.max(...properties.map(item => item.size));
         this.setState({
             properties,
             featureProperties,
+            offerProperties,
             sortedProperties: properties,
             loading: false,
             price: maxPrice,
@@ -89,7 +91,9 @@ export default class RoomProvider extends Component {
             tempRooms = tempRooms.filter(property => property.type === type);
         }
         if (capacity !== 1) {
+            // console.log(tempRooms)
             tempRooms = tempRooms.filter(property => property.capacity >= capacity);
+            // console.log(capacity)
         }
         tempRooms = tempRooms.filter(property => property.price <= price);
         tempRooms = tempRooms.filter(

@@ -1,0 +1,66 @@
+.c-wrapper{
+display: flex;
+margin: 15px 0;
+.p-card{
+    overflow: hidden;
+    position: relative;
+    background: black;
+    img{
+        width:100%;
+        transition: .5s all linear;
+        opacity: .8;
+        
+    }
+    &:hover img{
+        transform: scale(1.1);
+    }
+    &:hover .info{
+     opacity: 1;
+     p,h6{        
+        transform: translateY(-20px);
+    }
+    .room-link{
+        transform: scale(1);
+    }
+    }
+    .info{
+        opacity: 0;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background: rgba(0,0,0,0.6);
+        top:0;
+        left: 0;
+        color: white;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        transition: .5s all linear;
+        .room-link{
+            transition: .3s all linear;
+            font-size: 2rem;
+            color: rgb(212, 212, 212);
+            padding: 40px;
+            transform: scale(3);
+            &:hover{
+                       color:white
+            }
+            
+        }
+        p,h6{
+            font-weight: 300;
+            transition: .5s all ease-in-out;
+            letter-spacing: 1px;
+            
+        }
+        h6{
+            font-size: 1rem;
+        }
+        p{
+            font-size: .8rem;
+        }
+        
+    }
+}
+}

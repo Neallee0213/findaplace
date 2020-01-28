@@ -1,0 +1,29 @@
+.filter-container{
+
+    .filter-form{
+        text-transform: uppercase;
+        font-weight: 300;
+        .type{
+
+        }
+        .cap{
+
+        }
+        .extra{
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        .single-extra{
+            padding:0 10px;
+            label{
+                font-size: 1rem;
+                padding:0 5px;
+            }
+        }
+         
+        }
+        .price{
+text-align: center;
+        }
+    }
+}

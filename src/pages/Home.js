@@ -1,27 +1,28 @@
 import React from 'react';
-import Hero from "../components/Hero";
-import Banner from "../components/Banner";
-import Map from "../components/Map";
-import { Link } from 'react-router-dom';
-import Services from "../components/Services";
+import Hero from "../components/hero/Hero";
 import FeatureProperties from "../components/FeaturedProperties";
-import Title from "../components/Title"
+import Percentage from '../components/percentage/Percentage'
+import HotOffer from '../components/hotOffer/HotOffer';
+import Agents from '../components/agents/Agents'
+import Carousel from '../components/carousel/Carousel'
+import Feedback from '../components/feedback/Feedback'
+import Steps from '../components/steps/Steps'
+import BottomTitle from '../components/bottomTitle/BottomTitle'
 
 
 const Home = () => {
+
     return (
         <>
-            <Hero>
-                <Banner title="Welcome Home." subtitle="Don’t know where to start? Relax, we got this.">
-                    <Link to="/properties" className="btn-primary">
-                        start your search
-                    </Link>
-                </Banner>
-            </Hero>
-            <Services />
-            <Title title="Choose your New Home" />
-            <Map />
+            <Hero />
+            <Percentage />
             <FeatureProperties />
+            <HotOffer />
+            <Agents />
+            <Steps />
+            <Feedback />
+            <BottomTitle />
+            <Carousel />
         </>
     )
 }

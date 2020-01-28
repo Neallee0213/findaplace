@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;  
 }
 :root {
   --primaryColor: #006aff;
@@ -15,7 +16,7 @@
   --lightShadow: 2px 5px 3px 0px rgba(0, 0, 0, 0.5);
   --darkShadow: 4px 10px 5px 0px rgba(0, 0, 0, 0.5);
 }
-
+/* 
 body {
   padding-top: 66px;
   color: var(--mainBlack);
@@ -792,4 +793,4 @@ text-align: center;
   
 .info-link{
   margin-top: 10rem;
-}
+} */

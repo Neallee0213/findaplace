@@ -1,0 +1,35 @@
+.title-container{
+    margin: 100px 0;
+    border: 1px solid rgb(219, 219, 219);
+    .title-row{
+
+        .title-col{
+            text-align: center;
+            p{
+                font-size: 1.2rem;
+                font-weight: 300;
+                line-height: 2.5rem;
+                width: 60%;
+                margin: auto;
+            }
+            .btn-contact{
+                margin: 50px 0 ;
+                padding:10px 30px;
+                border: none;
+                width: 30%;
+                .link{
+                    text-decoration: none;
+                    p{
+                        border: 1px solid gray ;
+                        color:black;
+                        border-radius: 20px;
+    
+                    }
+                }
+                
+                
+                
+            }
+        }
+    }
+}

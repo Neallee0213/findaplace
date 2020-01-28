@@ -1,0 +1,88 @@
+.empty-search{
+    padding:100px;
+    height: 20vh;
+    text-align: center;
+    text-transform: uppercase;
+    h3{
+        font-weight: 300;
+    }
+}
+
+.list-row{
+    padding:100px;
+    .info{       
+        position: relative;
+        box-shadow: 0 10px 10px rgba(0,0,0,0.2);
+        .info-row, .type-row, .details-row {
+            padding: 10px 30px;   
+            position: absolute;
+            
+        }
+        .info-row{
+            .info-col-1{
+                h5{
+                    font-size: 1rem;
+                    font-weight: 300;
+                }
+            }
+            .info-col-2{
+                h5{
+                    text-align: end;
+                    font-weight: 300;
+                }
+            }
+        }
+        .type-row{
+            top:79%;
+            padding: 0 30px;
+            width: 100%;
+            margin: auto;
+            // background-color: rgba(212, 212, 212,.7);
+            h5{
+                font-size: .9rem;
+                color: white;
+                margin:0;
+                text-transform: uppercase;
+                font-weight: 300;
+            }
+        }
+        .details-row{
+            top:85%;
+            width: 100%;
+            height: 40px;
+            margin: auto;
+            // background-color: rgba(63, 63, 63, 0.7);
+
+        //    margin: 0;
+        .details-col{
+            p{
+                color: white;
+                float: left;
+                padding-right: 20px;
+                font-weight: 300;
+                span{
+                    padding:0 5px;
+                    font-weight: 500;
+                    
+                    
+                }
+            }        
+        }
+       }
+        .btn-row{
+            padding: 0 30px 20px 30px;
+            .btn-col{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                button{
+                    padding:10px 30px;
+                    background-color: gray;
+                    color:white;
+                    border: none;
+                    border-radius: 5px;
+                }
+            }
+        }
+    }
+}

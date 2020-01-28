@@ -1,0 +1,175 @@
+
+.footer{
+    background-color: rgb(27, 27, 27);
+    width: auto;
+    text-align: left;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    // margin-top: 50px;
+    padding-left: 25px;
+    text-align: center;
+  }
+  .footer .footer-left,
+  .footer .footer-center,
+  .footer .footer-right {
+  display: inline-block;
+  vertical-align: top;
+  }
+  .footer .footer-left {
+  width: 33%;
+  padding-right: 20px;
+  }
+  .footer .about {
+  line-height: 20px;
+  color: rgba(0,0,0,0.6);
+  font-size: 13px;
+  font-weight: normal;
+  margin: 0;
+  }
+  .footer .about span {
+  display: block;
+
+  font-size: 12px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  color: rgb(173, 173, 173);
+  font-weight: 300
+  }
+  
+  .footer .footer-center {
+  width: 30%;
+  }
+  
+  
+  .footer .fa-envelope {
+  font-size: 17px;
+  line-height: 38px;
+  }
+  
+  .footer .footer-center p {
+  display: inline-block;
+  color: rgba(0,0,0,0.6);
+  vertical-align: middle;
+  margin: 0;
+  }
+  
+  .footer .footer-center p span {
+  display: block;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 2;
+  }
+  
+  .footer .footer-center p a {
+  color: white;
+  text-decoration: none;
+  }
+  .footer .footer-center p a:hover {
+  text-decoration: underline;
+  color: white;
+  transition:all ease 0.5s;
+  }
+  .footer .footer-right {
+  width: 35%;
+  }
+  
+  .footer-right h4{
+    color: white;
+    margin-top: 5px;;
+  }
+  .footer-left h2 {
+  color: white;
+  font-size: 30px;
+  font-weight: lighter;
+  margin: 0;
+  // color: var(--primaryColor);
+  }
+  
+  .footer .menu {
+  color: rgba(0,0,0,0.6);
+  margin: 20px 0 12px;
+  padding: 0;
+  text-transform: uppercase;
+  }
+  
+  .footer .menu a,
+  .footer .menu p {
+  display: block;
+  line-height: 1.8em;
+  text-decoration: none;
+  color: rgb(173, 173, 173);
+  font-weight: 300;
+  }
+  
+  .footer .menu a:hover{
+  color: white;
+  transition:all ease 0.5s;
+  }
+  
+  
+  @media (max-width: 767px) {
+  .footer {
+  font-size: 14px;
+  }
+  .footer .footer-left,
+  .footer .footer-center,
+  .footer .footer-right {
+  display: block;
+  width: auto;
+  margin-bottom: 40px;
+  text-align: center;
+  }
+  
+  }
+  
+  .infowindows{
+    width: 12rem;
+    font-size: .8rem;
+   
+  }
+  .infowindows img{
+    margin-top: .5rem;
+    height: 50px;
+    font-size: .8rem;
+   float: right;
+  }
+  .infowindows h5{
+    text-align: center;
+   
+  }
+  .infowindows p{
+    flex:50;
+    margin-top: .2rem;
+    font-weight: 400;
+  }
+  
+  .infowindows button{
+    
+    background-color: var(--darkWhite);
+    border: none;
+    width: 100%;
+    padding: 5px 15px;
+    color: var(--mainBlack);
+    font-size: 10px;
+    font-weight: 500;
+    margin-top: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    
+  }
+  .infowindows button:hover {
+    cursor: pointer;
+    background-color: var(--primaryColor);
+    color:var(--darkWhite)
+    }
+    .infowindows .info-link:hover{
+      
+    } 
+    
+  .info-link{
+    margin-top: 10rem;
+  }
